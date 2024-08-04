@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests">
+    <test name="UI Test. Verification eSim Package Details">
+        <classes>
+            <class name="ui.TestESimPackageDetails"/>
+        </classes>
+    </test>
+    <test name="REST API Test. Creating an order">
+        <classes>
+            <class name="restApi.TestOrders"/>
+        </classes>
+    </test>
+    <test name="REST API Test. Verification eSim List">
+        <classes>
+            <class name="restApi.TestESims"/>
+        </classes>
+    </test>
+
+</suite>
