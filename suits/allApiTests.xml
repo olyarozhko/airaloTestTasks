@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="REST API Tests">
+    <test name="Creating an order">
+        <classes>
+            <class name="restApi.TestOrders"/>
+        </classes>
+    </test>
+    <test name="Verification eSim List">
+        <classes>
+            <class name="restApi.TestESims"/>
+        </classes>
+    </test>
+
+</suite>
